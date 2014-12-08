@@ -18,6 +18,7 @@
         <compiler.version>1.7</compiler.version>
         <allure.version>1.4.0</allure.version>
         <testng.version>6.8</testng.version>
+        <mockito.version>1.8.4</mockito.version>
     </properties>
 
     <licenses>
@@ -108,6 +109,13 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
