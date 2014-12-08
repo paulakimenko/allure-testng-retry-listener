@@ -1,12 +1,14 @@
-*.class
+# Intellij Idea Files #
+*.iml
+./.idea/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Target Files #
+./target/
 
 # Package Files #
 *.jar
 *.war
 *.ear
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hot
 hs_err_pid*
